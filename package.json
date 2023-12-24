@@ -1,0 +1,22 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "first tests with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "chrome:web:headed": "cypress run --browser chrome --headed -C cypress.config.js",
+    "chrome:web:headless": "cypress run --browser chrome --headless -C cypress.config.js",
+    "chrome:phone:headed": "cypress run --browser chrome --headed -C cypress.config2.js",
+    "chrome:phone:headless": "cypress run --browser chrome --headless -C cypress.config2.js",
+    "firefox:web:headed": "cypress run --browser firefox --headed -C cypress.config.js",
+    "firefox:web:headless": "cypress run --browser firefox --headless -C cypress.config.js",
+    "firefox:phone:headed": "cypress run --browser firefox --headed -C cypress.config2.js",
+    "firefox:phone:headless": "cypress run --browser firefox --headless -C cypress.config2.js"
+  },
+  "author": "OM",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1"
+  }
+}
